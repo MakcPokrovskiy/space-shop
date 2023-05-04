@@ -1,0 +1,43 @@
+.header {
+  padding-top: 20px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #4c4cff;
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+  }
+
+  &__personal-area {
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #4c4cff;
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+  }
+}

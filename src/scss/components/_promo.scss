@@ -1,0 +1,153 @@
+.promo {
+  padding-top: 43px;
+
+  &__title {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+}
+
+.sale {
+  border-radius: 4px;
+  padding-bottom: 5px;
+  background-color: #ffffff;
+
+  &__content {
+    display: flex;
+    column-gap: 10px;
+    padding-right: 42px;
+  }
+
+  &__logo {
+    max-width: 305px;
+  }
+
+  &__info {
+    max-width: 295px;
+    padding-top: 30px;
+
+    .sale__img--opacity {
+      opacity: 0.30;
+    }
+  }
+
+  &__grade {
+    display: flex;
+    column-gap: 8px;
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #131316;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+
+  &__descr {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 17px;
+
+    color: #131316;
+
+    &--red {
+      font-weight: 700;
+      text-align: right;
+
+      color: #ff0000;;
+    }
+  }
+
+  &__prices {
+    display: flex;
+    margin-bottom: 26px;
+  }
+
+  &__price {
+    width: 60px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    text-decoration-line: line-through;
+
+    color: #d9d9d9;
+
+    &--topical {
+
+      font-weight: 700;
+      font-style: normal;
+      line-height: 21px;
+      text-decoration-line: none;
+
+      color: #131316;
+    }
+  }
+
+  &__discount {
+    width: 60px;
+    border-radius: 4px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    background-color: #ff0000;
+  }
+
+  &__discount-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-right: 23px;
+  }
+
+  &__discount-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__promocode {
+    max-width: 280px;
+    margin: 0 auto 10px;
+    border: 1px dashed #131316;
+    border-radius: 4px;
+    padding: 19px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #131316;
+  }
+
+  &__btn {
+    height: 60px;
+    max-width: 280px;
+    margin: 0 auto 30px;
+  }
+}

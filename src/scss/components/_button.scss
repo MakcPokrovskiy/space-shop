@@ -1,0 +1,41 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 4px;
+  padding: 4px 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4c4cff 99.79%);
+
+  &--18 {
+    max-width: 180px;
+  }
+
+  &__hover {
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #4c4cff;
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+  }
+}
+
+
